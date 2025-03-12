@@ -219,7 +219,6 @@ var letterLoad = {
 
 $(window).scroll(function(e){
   value = $(window).scrollTop();
-  console.log(value);
   if(value > 1600 && !letterLoad[".one span"])
     letterLoading(".one span");
   if (value > 2500 && !letterLoad[".two span"])
